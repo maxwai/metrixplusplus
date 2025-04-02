@@ -23,61 +23,63 @@
                 </cyclomatic_switch_case_once>
             </std.code.complexity>
             <std.code.lines>
-                <code avg="5.0" count="15" max="11" min="0" nonzero="False" sup="0" total="75.0">
-                    <__diff__ avg="-0.875" count="-1" max="-9" min="0" nonzero="0" sup="0" total="-19.0" />
+                <code avg="4.61111111" count="18" max="11" min="0" nonzero="False" sup="0" total="83.0">
+                    <__diff__ avg="-0.75730994" count="-1" max="-9" min="0" nonzero="0" sup="0" total="-19.0" />
                     <distribution-bars>
-                        <distribution-bar __diff__="0" count="2" metric="0" ratio="0.13333333" />
-                        <distribution-bar __diff__="0" count="3" metric="3" ratio="0.2" />
-                        <distribution-bar __diff__="1" count="3" metric="4" ratio="0.2" />
-                        <distribution-bar __diff__="0" count="2" metric="5" ratio="0.13333333" />
-                        <distribution-bar __diff__="-3" count="1" metric="7" ratio="0.06666667" />
-                        <distribution-bar __diff__="1" count="2" metric="8" ratio="0.13333333" />
-                        <distribution-bar __diff__="1" count="1" metric="10" ratio="0.06666667" />
-                        <distribution-bar __diff__="0" count="1" metric="11" ratio="0.06666667" />
+                        <distribution-bar __diff__="0" count="2" metric="0" ratio="0.11111111" />
+                        <distribution-bar __diff__="0" count="1" metric="2" ratio="0.05555556" />
+                        <distribution-bar __diff__="0" count="5" metric="3" ratio="0.27777778" />
+                        <distribution-bar __diff__="1" count="3" metric="4" ratio="0.16666667" />
+                        <distribution-bar __diff__="0" count="2" metric="5" ratio="0.11111111" />
+                        <distribution-bar __diff__="-3" count="1" metric="7" ratio="0.05555556" />
+                        <distribution-bar __diff__="1" count="2" metric="8" ratio="0.11111111" />
+                        <distribution-bar __diff__="1" count="1" metric="10" ratio="0.05555556" />
+                        <distribution-bar __diff__="0" count="1" metric="11" ratio="0.05555556" />
                     </distribution-bars>
                 </code>
-                <comments avg="0.73333333" count="15" max="2" min="0" nonzero="False" sup="0" total="11.0">
-                    <__diff__ avg="0.10833333" count="-1" max="-1" min="0" nonzero="0" sup="0" total="1.0" />
+                <comments avg="0.61111111" count="18" max="2" min="0" nonzero="False" sup="0" total="11.0">
+                    <__diff__ avg="0.08479532" count="-1" max="-1" min="0" nonzero="0" sup="0" total="1.0" />
                     <distribution-bars>
-                        <distribution-bar __diff__="-3" count="7" metric="0" ratio="0.46666667" />
-                        <distribution-bar __diff__="2" count="5" metric="1" ratio="0.33333333" />
-                        <distribution-bar __diff__="1" count="3" metric="2" ratio="0.2" />
+                        <distribution-bar __diff__="-3" count="10" metric="0" ratio="0.55555556" />
+                        <distribution-bar __diff__="2" count="5" metric="1" ratio="0.27777778" />
+                        <distribution-bar __diff__="1" count="3" metric="2" ratio="0.16666667" />
                     </distribution-bars>
                 </comments>
-                <preprocessor avg="0.13333333" count="15" max="2" min="0" nonzero="False" sup="0" total="2.0">
-                    <__diff__ avg="0.07083333" count="-1" max="1" min="0" nonzero="0" sup="0" total="1.0" />
+                <preprocessor avg="0.11111111" count="18" max="2" min="0" nonzero="False" sup="0" total="2.0">
+                    <__diff__ avg="0.05847953" count="-1" max="1" min="0" nonzero="0" sup="0" total="1.0" />
                     <distribution-bars>
-                        <distribution-bar __diff__="-1" count="14" metric="0" ratio="0.93333333" />
+                        <distribution-bar __diff__="-1" count="17" metric="0" ratio="0.94444444" />
                         <distribution-bar __diff__="-1" count="0" metric="1" ratio="0" />
-                        <distribution-bar __diff__="1" count="1" metric="2" ratio="0.06666667" />
+                        <distribution-bar __diff__="1" count="1" metric="2" ratio="0.05555556" />
                     </distribution-bars>
                 </preprocessor>
-                <total avg="5.66666667" count="15" max="12" min="0" nonzero="False" sup="0" total="85.0">
-                    <__diff__ avg="-0.77083333" count="-1" max="-8" min="0" nonzero="0" sup="0" total="-18.0" />
+                <total avg="5.16666667" count="18" max="12" min="0" nonzero="False" sup="0" total="93.0">
+                    <__diff__ avg="-0.6754386" count="-1" max="-8" min="0" nonzero="0" sup="0" total="-18.0" />
                     <distribution-bars>
-                        <distribution-bar __diff__="0" count="2" metric="0" ratio="0.13333333" />
-                        <distribution-bar __diff__="-1" count="2" metric="3" ratio="0.13333333" />
-                        <distribution-bar __diff__="2" count="2" metric="4" ratio="0.13333333" />
-                        <distribution-bar __diff__="1" count="3" metric="5" ratio="0.2" />
+                        <distribution-bar __diff__="0" count="2" metric="0" ratio="0.11111111" />
+                        <distribution-bar __diff__="0" count="1" metric="2" ratio="0.05555556" />
+                        <distribution-bar __diff__="-1" count="4" metric="3" ratio="0.22222222" />
+                        <distribution-bar __diff__="2" count="2" metric="4" ratio="0.11111111" />
+                        <distribution-bar __diff__="1" count="3" metric="5" ratio="0.16666667" />
                         <distribution-bar __diff__="-1" count="0" metric="6" ratio="0" />
-                        <distribution-bar __diff__="-1" count="2" metric="7" ratio="0.13333333" />
+                        <distribution-bar __diff__="-1" count="2" metric="7" ratio="0.11111111" />
                         <distribution-bar __diff__="-2" count="0" metric="8" ratio="0" />
-                        <distribution-bar __diff__="1" count="2" metric="9" ratio="0.13333333" />
-                        <distribution-bar __diff__="1" count="2" metric="12" ratio="0.13333333" />
+                        <distribution-bar __diff__="1" count="2" metric="9" ratio="0.11111111" />
+                        <distribution-bar __diff__="1" count="2" metric="12" ratio="0.11111111" />
                     </distribution-bars>
                 </total>
             </std.code.lines>
             <std.code.ratio>
-                <comments avg="0.09366667" count="15" max="0.25" min="0.0" nonzero="False" sup="0" total="1.405">
-                    <__diff__ avg="0.01672917" count="-1" max="-0.178" min="0.0" nonzero="0" sup="0" total="0.174" />
+                <comments avg="0.07805556" count="18" max="0.25" min="0.0" nonzero="False" sup="0" total="1.405">
+                    <__diff__ avg="0.01326608" count="-1" max="-0.178" min="0.0" nonzero="0" sup="0" total="0.174" />
                     <distribution-bars>
-                        <distribution-bar __diff__="-3" count="7" metric="0.0000" ratio="0.46666667" />
-                        <distribution-bar __diff__="1" count="1" metric="0.1110" ratio="0.06666667" />
-                        <distribution-bar __diff__="-1" count="1" metric="0.1250" ratio="0.06666667" />
-                        <distribution-bar __diff__="0" count="1" metric="0.1530" ratio="0.06666667" />
-                        <distribution-bar __diff__="1" count="1" metric="0.1660" ratio="0.06666667" />
-                        <distribution-bar __diff__="1" count="3" metric="0.2000" ratio="0.2" />
-                        <distribution-bar __diff__="1" count="1" metric="0.2500" ratio="0.06666667" />
+                        <distribution-bar __diff__="-3" count="10" metric="0.0000" ratio="0.55555556" />
+                        <distribution-bar __diff__="1" count="1" metric="0.1110" ratio="0.05555556" />
+                        <distribution-bar __diff__="-1" count="1" metric="0.1250" ratio="0.05555556" />
+                        <distribution-bar __diff__="0" count="1" metric="0.1530" ratio="0.05555556" />
+                        <distribution-bar __diff__="1" count="1" metric="0.1660" ratio="0.05555556" />
+                        <distribution-bar __diff__="1" count="3" metric="0.2000" ratio="0.16666667" />
+                        <distribution-bar __diff__="1" count="1" metric="0.2500" ratio="0.05555556" />
                     </distribution-bars>
                 </comments>
             </std.code.ratio>
@@ -103,6 +105,7 @@
         </subdirs>
         <subfiles>
             <subfile>file_deleted_in_new_sources.cpp</subfile>
+            <subfile>simple.c</subfile>
             <subfile>simple.cpp</subfile>
             <subfile>simple2.cpp</subfile>
         </subfiles>

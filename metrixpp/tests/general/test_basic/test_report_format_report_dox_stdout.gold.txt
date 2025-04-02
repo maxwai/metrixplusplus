@@ -4,7 +4,7 @@
 
 \section metrix_sec Metrix Warnings
 
-Metrix Limits exceeded 8 times.
+Metrix Limits exceeded 14 times.
 
 Warning list: \ref metrix_warnings
 
@@ -12,6 +12,7 @@ Warning list: \ref metrix_warnings
 |              file               | warnings | std.code.filelines.total |
 | ------------------------------- | -------: | -----------------------: |
 | file_deleted_in_new_sources.cpp |        2 |                       25 |
+| simple.c                        |        6 |                        6 |
 | simple.cpp                      |        6 |                       74 |
 
 
@@ -32,6 +33,27 @@ Warning list: \ref metrix_warnings
 
 \xrefitem metrix_warnings "Metrix Warning" "Metrix Warnings" Metric 'std.code.complexity:cyclomatic' for region \ref B exceeds the limit. (value: 1 > limit: 0.0)
 \xrefitem metrix_warnings "Metrix Warning" "Metrix Warnings" Metric 'std.code.complexity:cyclomatic' for region \ref never_old exceeds the limit. (value: 1 > limit: 0.0)
+
+
+\file ./simple.c
+
+# metrix
+| warnings | std.code.filelines.total |
+| -------: | -----------------------: |
+|        6 |                        6 |
+
+# region metrix
+|     region      | warnings | std.code.lines.code | std.code.lines.total |
+| --------------- | -------: | ------------------: | -------------------: |
+| __global__      |        0 |                   2 |                    2 |
+| \ref __noname__ |        0 |                   3 |                    3 |
+
+\xrefitem metrix_warnings "Metrix Warning" "Metrix Warnings" Metric 'std.code.complexity:cyclomatic' for region \ref A exceeds the limit. (value: 3 > limit: 0.0)
+\xrefitem metrix_warnings "Metrix Warning" "Metrix Warnings" Metric 'std.code.complexity:cyclomatic' for region \ref func exceeds the limit. (value: 1 > limit: 0.0)
+\xrefitem metrix_warnings "Metrix Warning" "Metrix Warnings" Metric 'std.code.complexity:cyclomatic' for region \ref embeded exceeds the limit. (value: 1 > limit: 0.0)
+\xrefitem metrix_warnings "Metrix Warning" "Metrix Warnings" Metric 'std.code.complexity:cyclomatic' for region \ref func_to_be_removed_in_new_sources exceeds the limit. (value: 2 > limit: 0.0)
+\xrefitem metrix_warnings "Metrix Warning" "Metrix Warnings" Metric 'std.code.complexity:cyclomatic' for region \ref embeded exceeds the limit. (value: 1 > limit: 0.0)
+\xrefitem metrix_warnings "Metrix Warning" "Metrix Warnings" Metric 'std.code.complexity:cyclomatic' for region \ref never exceeds the limit. (value: 1 > limit: 0.0)
 
 
 \file ./simple.cpp

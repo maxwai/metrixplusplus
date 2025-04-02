@@ -676,6 +676,7 @@ def cout_prom_regions(path, regions, indent = 0):
                 details.append((namespace + ":" + field, str(region['data'][namespace][field]) + diff_str))
         promout.notify(path = path,
                         region = region['info']['name'],
+                        line = region['info']['line_begin'],
                         metric = "",
                         details = details)
         if 'subregions' in list(region.keys()):

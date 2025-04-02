@@ -3,38 +3,66 @@
     <data>
         <aggregated-data>
             <std.code.complexity>
-                <cyclomatic avg="1.42857143" count="7" max="3" min="0" nonzero="False" sup="0" total="10.0">
-                    <__diff__ avg="-0.07142857" count="1" max="0" min="-1" nonzero="0" sup="0" total="1.0" />
+                <cyclomatic avg="1.5" count="6" max="3" min="1" nonzero="False" sup="0" total="9.0">
+                    <__diff__ avg="0.0" count="0" max="0" min="0" nonzero="0" sup="0" total="0.0" />
                     <distribution-bars>
-                        <distribution-bar __diff__="1" count="1" metric="0" ratio="0.14285714" />
-                        <distribution-bar __diff__="-1" count="3" metric="1" ratio="0.42857143" />
-                        <distribution-bar __diff__="1" count="2" metric="2" ratio="0.28571429" />
-                        <distribution-bar __diff__="0" count="1" metric="3" ratio="0.14285714" />
+                        <distribution-bar __diff__="0" count="4" metric="1" ratio="0.66666667" />
+                        <distribution-bar __diff__="0" count="1" metric="2" ratio="0.16666667" />
+                        <distribution-bar __diff__="0" count="1" metric="3" ratio="0.16666667" />
                     </distribution-bars>
                 </cyclomatic>
             </std.code.complexity>
+            <std.code.lines>
+                <code avg="6.54545455" count="11" max="20" min="0" nonzero="False" sup="0" total="72.0">
+                    <__diff__ avg="0.0" count="0" max="0" min="0" nonzero="0" sup="0" total="0.0" />
+                    <distribution-bars>
+                        <distribution-bar __diff__="0" count="1" metric="0" ratio="0.09090909" />
+                        <distribution-bar __diff__="0" count="2" metric="3" ratio="0.18181818" />
+                        <distribution-bar __diff__="0" count="1" metric="4" ratio="0.09090909" />
+                        <distribution-bar __diff__="0" count="2" metric="5" ratio="0.18181818" />
+                        <distribution-bar __diff__="0" count="3" metric="7" ratio="0.27272727" />
+                        <distribution-bar __diff__="0" count="1" metric="11" ratio="0.09090909" />
+                        <distribution-bar __diff__="0" count="1" metric="20" ratio="0.09090909" />
+                    </distribution-bars>
+                </code>
+            </std.code.lines>
         </aggregated-data>
         <file-data>
             <regions>
                 <region>
-                    <data />
-                    <info cursor="0" line_begin="1" line_end="78" modified="False" name="__global__" offset_begin="0" offset_end="836" type="global" />
+                    <data>
+                        <std.code.lines code="0">
+                            <__diff__ code="0" />
+                        </std.code.lines>
+                    </data>
+                    <info cursor="0" line_begin="1" line_end="90" modified="False" name="__global__" offset_begin="0" offset_end="1418" type="global" />
                     <subregions>
                         <subregion>
-                            <data />
-                            <info cursor="4" line_begin="3" line_end="77" modified="True" name="hmm" offset_begin="2" offset_end="835" type="namespace" />
+                            <data>
+                                <std.code.lines code="4">
+                                    <__diff__ code="0" />
+                                </std.code.lines>
+                            </data>
+                            <info cursor="4" line_begin="3" line_end="89" modified="False" name="hmm" offset_begin="2" offset_end="1417" type="namespace" />
                             <subregions>
                                 <subregion>
-                                    <data />
-                                    <info cursor="10" line_begin="10" line_end="75" modified="True" name="A" offset_begin="111" offset_end="831" type="class" />
+                                    <data>
+                                        <std.code.lines code="20">
+                                            <__diff__ code="0" />
+                                        </std.code.lines>
+                                    </data>
+                                    <info cursor="9" line_begin="9" line_end="87" modified="False" name="A" offset_begin="94" offset_end="1413" type="class" />
                                     <subregions>
                                         <subregion>
                                             <data>
                                                 <std.code.complexity cyclomatic="3">
                                                     <__diff__ cyclomatic="0" />
                                                 </std.code.complexity>
+                                                <std.code.lines code="11">
+                                                    <__diff__ code="0" />
+                                                </std.code.lines>
                                             </data>
-                                            <info cursor="13" line_begin="13" line_end="24" modified="False" name="A" offset_begin="123" offset_end="269" type="function" />
+                                            <info cursor="12" line_begin="12" line_end="23" modified="False" name="A" offset_begin="106" offset_end="252" type="function" />
                                             <subregions>
                                             </subregions>
                                         </subregion>
@@ -43,20 +71,66 @@
                                                 <std.code.complexity cyclomatic="1">
                                                     <__diff__ cyclomatic="0" />
                                                 </std.code.complexity>
+                                                <std.code.lines code="5">
+                                                    <__diff__ code="0" />
+                                                </std.code.lines>
                                             </data>
-                                            <info cursor="26" line_begin="26" line_end="42" modified="False" name="func" offset_begin="272" offset_end="455" type="function" />
+                                            <info cursor="26" line_begin="26" line_end="40" modified="False" name="func" offset_begin="256" offset_end="405" type="function" />
                                             <subregions>
                                                 <subregion>
-                                                    <data />
-                                                    <info cursor="28" line_begin="28" line_end="40" modified="False" name="embeded" offset_begin="301" offset_end="441" type="class" />
+                                                    <data>
+                                                        <std.code.lines code="3">
+                                                            <__diff__ code="0" />
+                                                        </std.code.lines>
+                                                    </data>
+                                                    <info cursor="28" line_begin="28" line_end="38" modified="False" name="embeded" offset_begin="285" offset_end="391" type="class" />
                                                     <subregions>
                                                         <subregion>
                                                             <data>
-                                                                <std.code.complexity cyclomatic="2">
-                                                                    <__diff__ cyclomatic="1" />
+                                                                <std.code.complexity cyclomatic="1">
+                                                                    <__diff__ cyclomatic="0" />
                                                                 </std.code.complexity>
+                                                                <std.code.lines code="7">
+                                                                    <__diff__ code="0" />
+                                                                </std.code.lines>
                                                             </data>
-                                                            <info cursor="30" line_begin="30" line_end="39" modified="True" name="embeded" offset_begin="322" offset_end="437" type="function" />
+                                                            <info cursor="30" line_begin="30" line_end="37" modified="False" name="embeded" offset_begin="306" offset_end="387" type="function" />
+                                                            <subregions>
+                                                            </subregions>
+                                                        </subregion>
+                                                    </subregions>
+                                                </subregion>
+                                            </subregions>
+                                        </subregion>
+                                        <subregion>
+                                            <data>
+                                                <std.code.complexity cyclomatic="2">
+                                                    <__diff__ cyclomatic="0" />
+                                                </std.code.complexity>
+                                                <std.code.lines code="5">
+                                                    <__diff__ code="0" />
+                                                </std.code.lines>
+                                            </data>
+                                            <info cursor="42" line_begin="42" line_end="56" modified="False" name="func_to_be_removed_in_new_sources" offset_begin="408" offset_end="596" type="function" />
+                                            <subregions>
+                                                <subregion>
+                                                    <data>
+                                                        <std.code.lines code="3">
+                                                            <__diff__ code="0" />
+                                                        </std.code.lines>
+                                                    </data>
+                                                    <info cursor="44" line_begin="44" line_end="54" modified="False" name="embeded" offset_begin="466" offset_end="577" type="class" />
+                                                    <subregions>
+                                                        <subregion>
+                                                            <data>
+                                                                <std.code.complexity cyclomatic="1">
+                                                                    <__diff__ cyclomatic="0" />
+                                                                </std.code.complexity>
+                                                                <std.code.lines code="7">
+                                                                    <__diff__ code="0" />
+                                                                </std.code.lines>
+                                                            </data>
+                                                            <info cursor="46" line_begin="46" line_end="53" modified="False" name="embeded" offset_begin="487" offset_end="573" type="function" />
                                                             <subregions>
                                                             </subregions>
                                                         </subregion>
@@ -69,32 +143,11 @@
                                                 <std.code.complexity cyclomatic="1">
                                                     <__diff__ cyclomatic="0" />
                                                 </std.code.complexity>
+                                                <std.code.lines code="7">
+                                                    <__diff__ code="0" />
+                                                </std.code.lines>
                                             </data>
-                                            <info cursor="44" line_begin="44" line_end="51" modified="True" name="never" offset_begin="458" offset_end="549" type="function" />
-                                            <subregions>
-                                            </subregions>
-                                        </subregion>
-                                        <subregion>
-                                            <data>
-                                                <std.code.complexity cyclomatic="0" />
-                                            </data>
-                                            <info cursor="53" line_begin="53" line_end="56" modified="None" name="new_func" offset_begin="552" offset_end="585" type="function" />
-                                            <subregions>
-                                            </subregions>
-                                        </subregion>
-                                        <subregion>
-                                            <data>
-                                                <std.code.complexity cyclomatic="1" />
-                                            </data>
-                                            <info cursor="58" line_begin="58" line_end="62" modified="None" name="new_func_complex" offset_begin="588" offset_end="646" type="function" />
-                                            <subregions>
-                                            </subregions>
-                                        </subregion>
-                                        <subregion>
-                                            <data>
-                                                <std.code.complexity cyclomatic="2" />
-                                            </data>
-                                            <info cursor="65" line_begin="64" line_end="72" modified="None" name="new_func_complex_but_suppressed" offset_begin="649" offset_end="808" type="function" />
+                                            <info cursor="58" line_begin="58" line_end="65" modified="False" name="never" offset_begin="599" offset_end="669" type="function" />
                                             <subregions>
                                             </subregions>
                                         </subregion>

@@ -6,6 +6,11 @@
             "std.code.filelines.total": "25"
         },
         {
+            "file": "simple.c",
+            "warnings": "6",
+            "std.code.filelines.total": "6"
+        },
+        {
             "file": "simple.cpp",
             "warnings": "6",
             "std.code.filelines.total": "74"
@@ -22,6 +27,48 @@
         {
             "metric": "std.code.complexity:cyclomatic",
             "region": "never_old",
+            "type": "max",
+            "level": 1,
+            "limit": 0.0
+        },
+        {
+            "metric": "std.code.complexity:cyclomatic",
+            "region": "A",
+            "type": "max",
+            "level": 3,
+            "limit": 0.0
+        },
+        {
+            "metric": "std.code.complexity:cyclomatic",
+            "region": "func",
+            "type": "max",
+            "level": 1,
+            "limit": 0.0
+        },
+        {
+            "metric": "std.code.complexity:cyclomatic",
+            "region": "embeded",
+            "type": "max",
+            "level": 1,
+            "limit": 0.0
+        },
+        {
+            "metric": "std.code.complexity:cyclomatic",
+            "region": "func_to_be_removed_in_new_sources",
+            "type": "max",
+            "level": 2,
+            "limit": 0.0
+        },
+        {
+            "metric": "std.code.complexity:cyclomatic",
+            "region": "embeded",
+            "type": "max",
+            "level": 1,
+            "limit": 0.0
+        },
+        {
+            "metric": "std.code.complexity:cyclomatic",
+            "region": "never",
             "type": "max",
             "level": 1,
             "limit": 0.0
@@ -116,6 +163,67 @@
                     "std.code.lines.code": "7",
                     "std.code.lines.total": "7",
                     "std.code.complexity.cyclomatic": "1"
+                }
+            }
+        },
+        "./simple.c": {
+            "warnings": [
+                {
+                    "metric": "std.code.complexity:cyclomatic",
+                    "region": "A",
+                    "type": "max",
+                    "level": 3,
+                    "limit": 0.0
+                },
+                {
+                    "metric": "std.code.complexity:cyclomatic",
+                    "region": "func",
+                    "type": "max",
+                    "level": 1,
+                    "limit": 0.0
+                },
+                {
+                    "metric": "std.code.complexity:cyclomatic",
+                    "region": "embeded",
+                    "type": "max",
+                    "level": 1,
+                    "limit": 0.0
+                },
+                {
+                    "metric": "std.code.complexity:cyclomatic",
+                    "region": "func_to_be_removed_in_new_sources",
+                    "type": "max",
+                    "level": 2,
+                    "limit": 0.0
+                },
+                {
+                    "metric": "std.code.complexity:cyclomatic",
+                    "region": "embeded",
+                    "type": "max",
+                    "level": 1,
+                    "limit": 0.0
+                },
+                {
+                    "metric": "std.code.complexity:cyclomatic",
+                    "region": "never",
+                    "type": "max",
+                    "level": 1,
+                    "limit": 0.0
+                }
+            ],
+            "std.code.filelines.total": "6",
+            "regions": {
+                "__global__": {
+                    "region": "__global__",
+                    "warnings": "0",
+                    "std.code.lines.code": "2",
+                    "std.code.lines.total": "2"
+                },
+                "__noname__": {
+                    "region": "__noname__",
+                    "warnings": "0",
+                    "std.code.lines.code": "3",
+                    "std.code.lines.total": "3"
                 }
             }
         },

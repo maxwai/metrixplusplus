@@ -237,7 +237,10 @@ class Test(tests.common.TestCase):
         
         # note: --scope-mode is tested in workflow test above
 
-        runner = tests.common.ToolRunner('collect', ['--std.code.complexity.cyclomatic'], save_prev=True)
+        runner = tests.common.ToolRunner('collect',
+                                         ['--std.code.complexity.cyclomatic',
+                                          '--std.code.lines.code']
+                                          , save_prev=True)
         self.assertExec(runner.run())
 
         runner = tests.common.ToolRunner('view', ['--format=txt'], prefix='txt')
@@ -255,7 +258,7 @@ class Test(tests.common.TestCase):
         runner = tests.common.ToolRunner('view',
                                          ['--format=prometheus', '--log-level=ERROR'],
                                          prefix='prometheus_simple.cpp',
-                                         dirs_list=['./simple.cpp'])
+                                         dirs_list=['./simple.cpp', './simple.c'])
         self.assertExec(runner.run())
         
         runner = tests.common.ToolRunner('collect',

@@ -2,5 +2,6 @@
 [LOG]: INFO:	Excluding: ./.unused.cpp - excluded by rule '^[.]'
 [LOG]: INFO:	Skipping: ./dummy.txt
 [LOG]: INFO:	Processing: ./file_deleted_in_new_sources.cpp
+[LOG]: INFO:	Processing: ./simple.c
 [LOG]: INFO:	Processing: ./simple.cpp
-[LOG]: WARNING:	Done (1 seconds). Exit code: 0
+[LOG]: WARNING:	Done (0.08 seconds). Exit code: 0

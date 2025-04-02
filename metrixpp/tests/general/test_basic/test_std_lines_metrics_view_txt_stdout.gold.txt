@@ -1,73 +1,76 @@
 ./:: info: Overall metrics for 'std.code.lines:code' metric
-	Average        : 5.875
+	Average        : 5.36842105
 	Minimum        : 0
 	Maximum        : 20
-	Total          : 94.0
-	Distribution   : 16 regions in total (including 0 suppressed)
+	Total          : 102.0
+	Distribution   : 19 regions in total (including 0 suppressed)
 	  Metric value : Ratio : R-sum : Number of regions
-	             0 : 0.125 : 0.125 :  2	||||||||||||
-	             3 : 0.188 : 0.312 :  3	||||||||||||||||||
-	             4 : 0.125 : 0.438 :  2	||||||||||||
-	             5 : 0.125 : 0.562 :  2	||||||||||||
-	             7 : 0.250 : 0.812 :  4	|||||||||||||||||||||||||
-	             8 : 0.062 : 0.875 :  1	||||||
-	            11 : 0.062 : 0.938 :  1	||||||
-	            20 : 0.062 : 1.000 :  1	||||||
+	             0 : 0.105 : 0.105 :  2	||||||||||
+	             2 : 0.053 : 0.158 :  1	|||||
+	             3 : 0.263 : 0.421 :  5	||||||||||||||||||||||||||
+	             4 : 0.105 : 0.526 :  2	||||||||||
+	             5 : 0.105 : 0.632 :  2	||||||||||
+	             7 : 0.211 : 0.842 :  4	|||||||||||||||||||||
+	             8 : 0.053 : 0.895 :  1	|||||
+	            11 : 0.053 : 0.947 :  1	|||||
+	            20 : 0.053 : 1.000 :  1	|||||
 
 ./:: info: Overall metrics for 'std.code.lines:comments' metric
-	Average        : 0.625
+	Average        : 0.52631579
 	Minimum        : 0
 	Maximum        : 3
 	Total          : 10.0
-	Distribution   : 16 regions in total (including 0 suppressed)
+	Distribution   : 19 regions in total (including 0 suppressed)
 	  Metric value : Ratio : R-sum : Number of regions
-	             0 : 0.625 : 0.625 : 10	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-	             1 : 0.188 : 0.812 :  3	||||||||||||||||||
-	             2 : 0.125 : 0.938 :  2	||||||||||||
-	             3 : 0.062 : 1.000 :  1	||||||
+	             0 : 0.684 : 0.684 : 13	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+	             1 : 0.158 : 0.842 :  3	|||||||||||||||
+	             2 : 0.105 : 0.947 :  2	||||||||||
+	             3 : 0.053 : 1.000 :  1	|||||
 
 ./:: info: Overall metrics for 'std.code.lines:preprocessor' metric
-	Average        : 0.0625
+	Average        : 0.05263158
 	Minimum        : 0
 	Maximum        : 1
 	Total          : 1.0
-	Distribution   : 16 regions in total (including 0 suppressed)
+	Distribution   : 19 regions in total (including 0 suppressed)
 	  Metric value : Ratio : R-sum : Number of regions
-	             0 : 0.938 : 0.938 : 15	|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-	             1 : 0.062 : 1.000 :  1	||||||
+	             0 : 0.947 : 0.947 : 18	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+	             1 : 0.053 : 1.000 :  1	|||||
 
 ./:: info: Overall metrics for 'std.code.lines:total' metric
-	Average        : 6.4375
+	Average        : 5.84210526
 	Minimum        : 0
 	Maximum        : 20
-	Total          : 103.0
-	Distribution   : 16 regions in total (including 0 suppressed)
+	Total          : 111.0
+	Distribution   : 19 regions in total (including 0 suppressed)
 	  Metric value : Ratio : R-sum : Number of regions
-	             0 : 0.125 : 0.125 :  2	||||||||||||
-	             3 : 0.188 : 0.312 :  3	||||||||||||||||||
-	             5 : 0.125 : 0.438 :  2	||||||||||||
-	             6 : 0.062 : 0.500 :  1	||||||
-	             7 : 0.188 : 0.688 :  3	||||||||||||||||||
-	             8 : 0.125 : 0.812 :  2	||||||||||||
-	             9 : 0.062 : 0.875 :  1	||||||
-	            12 : 0.062 : 0.938 :  1	||||||
-	            20 : 0.062 : 1.000 :  1	||||||
+	             0 : 0.105 : 0.105 :  2	||||||||||
+	             2 : 0.053 : 0.158 :  1	|||||
+	             3 : 0.263 : 0.421 :  5	||||||||||||||||||||||||||
+	             5 : 0.105 : 0.526 :  2	||||||||||
+	             6 : 0.053 : 0.579 :  1	|||||
+	             7 : 0.158 : 0.737 :  3	|||||||||||||||
+	             8 : 0.105 : 0.842 :  2	||||||||||
+	             9 : 0.053 : 0.895 :  1	|||||
+	            12 : 0.053 : 0.947 :  1	|||||
+	            20 : 0.053 : 1.000 :  1	|||||
 
 ./:: info: Overall metrics for 'std.code.ratio:comments' metric
-	Average        : 0.0769375
+	Average        : 0.06478947
 	Minimum        : 0.0
 	Maximum        : 0.428
 	Total          : 1.231
-	Distribution   : 16 regions in total (including 0 suppressed)
+	Distribution   : 19 regions in total (including 0 suppressed)
 	  Metric value : Ratio : R-sum : Number of regions
-	        0.0000 : 0.625 : 0.625 : 10	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-	        0.1250 : 0.125 : 0.750 :  2	||||||||||||
-	        0.1530 : 0.062 : 0.812 :  1	||||||
-	        0.2000 : 0.125 : 0.938 :  2	||||||||||||
-	        0.4280 : 0.062 : 1.000 :  1	||||||
+	        0.0000 : 0.684 : 0.684 : 13	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+	        0.1250 : 0.105 : 0.789 :  2	||||||||||
+	        0.1530 : 0.053 : 0.842 :  1	|||||
+	        0.2000 : 0.105 : 0.947 :  2	||||||||||
+	        0.4280 : 0.053 : 1.000 :  1	|||||
 
 ./:: info: Directory content:
 	File           : file_deleted_in_new_sources.cpp
+	File           : simple.c
 	File           : simple.cpp
 
 

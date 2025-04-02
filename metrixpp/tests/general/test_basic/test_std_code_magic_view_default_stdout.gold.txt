@@ -12,6 +12,7 @@
 
 ./:: info: Directory content:
 	File           : file_deleted_in_new_sources.cpp
+	File           : simple.c
 	File           : simple.cpp
 
 

@@ -51,24 +51,27 @@
 	             1 : 1.000 : 1.000 : 2	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 ./:: info: Overall metrics for 'std.code.member:structs' metric
-	Average        : None (excluding zero metric values)
-	Minimum        : None
-	Maximum        : None
-	Total          : 0.0
-	Distribution   : 0 regions in total (including 0 suppressed)
+	Average        : 2.0 (excluding zero metric values)
+	Minimum        : 2
+	Maximum        : 2
+	Total          : 2.0
+	Distribution   : 1 regions in total (including 0 suppressed)
 	  Metric value : Ratio : R-sum : Number of regions
+	             2 : 1.000 : 1.000 : 1	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 ./:: info: Overall metrics for 'std.code.member:types' metric
-	Average        : 1.0 (excluding zero metric values)
+	Average        : 1.2 (excluding zero metric values)
 	Minimum        : 1
-	Maximum        : 1
-	Total          : 4.0
-	Distribution   : 4 regions in total (including 0 suppressed)
+	Maximum        : 2
+	Total          : 6.0
+	Distribution   : 5 regions in total (including 0 suppressed)
 	  Metric value : Ratio : R-sum : Number of regions
-	             1 : 1.000 : 1.000 : 4	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+	             1 : 0.800 : 0.800 : 4	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+	             2 : 0.200 : 1.000 : 1	||||||||||||||||||||
 
 ./:: info: Directory content:
 	File           : file_deleted_in_new_sources.cpp
+	File           : simple.c
 	File           : simple.cpp
 
 

@@ -7,14 +7,20 @@
 
 import re
 
-def notify(path, metric, details, region=""):
+def notify(path, metric, details, region="", line=""):
     notification = ""
 
     for each in details:
         if str(each[1]) != 'None':
+            format_string = "{metric} {{file=\"{path}\""
+            input = {"metric": re.sub(r'^_', '', re.sub(r'[\.\:]', '_', metric + "." + str(each[0]))), "path": path}
             if region:
-                notification += ("{metric} {{file=\"{path}\", region=\"{region}\"}} {value}\n".format(metric=re.sub(r'^_', '', re.sub(r'[\.\:]', '_', metric + "." + str(each[0]))), value=str(each[1]), path=path, region=region))
-            else:
-                notification += ("{metric} {{file=\"{path}\"}} {value}\n".format(metric=re.sub(r'^_', '', re.sub(r'[\.\:]', '_', metric + "." + str(each[0]))), value=str(each[1]), path=path, region=region))
-        
+                format_string += ", region=\"{region}\""
+                input["region"] = region
+            if line:
+                format_string += ", line=\"{line}\""
+                input["line"] = line
+            format_string += "}} {value}\n"
+            input["value"] = str(each[1])
+            notification += format_string.format(**input)
     print(notification)
